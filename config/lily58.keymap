@@ -44,10 +44,10 @@
             //                        | ALT  | GUI  | LOWER|  SPACE |  | BSPC  | ENTER| RAISE | CTRL  |
 
             bindings = <
-&kp ESC     &kp N1  &kp N2  &kp N3        &kp N4    &kp N5                                  &kp N6           &kp N7               &kp N8                  &kp N9   &kp N0     &kp BACKSPACE
-&kp TAB     &kp Q   &kp W   &kp E         &kp R     &kp T                                   &kp Y            &kp U                &kp I                   &kp O    &kp P      &kp MINUS
-&kp LSHIFT  &kp A   &kp S   &kp D         &kp F     &kp G                                   &kp H            &kp J                &kp K                   &kp L    &kp SEMI   &kp SINGLE_QUOTE
-&kp LCTRL   &kp Z   &kp X   &kp C         &kp V     &kp B     &kp C_VOL_DN    &kp C_VOL_UP  &kp N            &kp M                &kp COMMA               &kp DOT  &kp SLASH  &kp EQUAL
+&kp ESC     &kp N1  &kp N2  &kp N3        &kp N4    &kp N5                                  &kp N6           &kp N7               &kp N8                  &kp N9   &kp N0                &kp BACKSPACE
+&kp TAB     &kp Q   &kp W   &kp E         &kp R     &kp T                                   &kp Y            &kp U                &kp I                   &kp O    &kp P                 &kp MINUS
+&kp LSHIFT  &kp A   &kp S   &kp D         &kp F     &kp G                                   &kp H            &kp J                &kp K                   &kp L    &kp LS(PT_SEMICOLON)  &kp PT_SINGLE_QUOTE
+&kp LCTRL   &kp Z   &kp X   &kp C         &kp V     &kp B     &kp C_VOL_DN    &kp C_VOL_UP  &kp N            &kp M                &kp COMMA               &kp DOT  &kp PT_SLASH          &kp EQUAL
                             &msc SCRL_UP  &kp LALT  &kp LWIN  &kp SPACE       &kp ENTER     &kp PRINTSCREEN  &kp LG(PRINTSCREEN)  &lt 1 C_BRIGHTNESS_DEC
             >;
 
@@ -63,10 +63,10 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp PRINTSCREEN   &kp F1  &kp F2  &kp F3            &kp F4        &kp F5                                  &kp F6       &kp F7         &kp F8     &kp F9     &kp F10           &kp F11
-&kp CAPSLOCK      &kp N1  &kp N2  &kp N3            &kp N4        &kp N5                                  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME   &kp END    &kp DEL           &kp F12
-&kp LEFT_SHIFT    &trans  &trans  &trans            &kp PT_ACUTE  &kp PT_TILDE                            &kp LEFT     &kp DOWN       &kp UP     &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_CONTROL  &trans  &trans  &kp PT_C_CEDILLA  &trans        &trans        &bt BT_NXT    &bt BT_PRV  &kp KP_PLUS  &kp MINUS      &kp EQUAL  &kp LBKT   &kp RBKT          &kp BACKSLASH
+&kp PRINTSCREEN   &kp F1  &kp F2  &kp F3            &kp F4        &kp F5                                  &kp F6       &kp F7         &kp F8     &kp F9     &kp F10              &kp F11
+&kp CAPSLOCK      &kp N1  &kp N2  &kp N3            &kp N4        &kp N5                                  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME   &kp END    &kp DEL              &kp F12
+&kp LEFT_SHIFT    &trans  &trans  &trans            &kp PT_ACUTE  &kp PT_TILDE                            &kp LEFT     &kp DOWN       &kp UP     &kp RIGHT  &kp PT_LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LEFT_CONTROL  &trans  &trans  &kp PT_C_CEDILLA  &trans        &trans        &bt BT_NXT    &bt BT_PRV  &kp KP_PLUS  &kp MINUS      &kp EQUAL  &kp LBKT   &kp RBKT             &kp PT_BACKSLASH
                                   &msc SCRL_DOWN    &trans        &trans        &trans        &trans      &trans       &bt BT_CLR     &trans
             >;
 
